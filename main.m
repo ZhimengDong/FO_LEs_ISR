@@ -9,7 +9,7 @@
 % ========================================================================
 
 clc; clear; close all;
-addpath('./src', './utils');  % Ensure subfolders are in the path
+addpath('./Src', './Utils');  % Ensure subfolders are in the path
 
 %% 1. System and Simulation Parameters
 sys_p.sigma = 10;
