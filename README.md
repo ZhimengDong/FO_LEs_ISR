@@ -1,5 +1,5 @@
 # FO_LEs_ISR
-This is the official code release for the paper: **Mitigating algorithmic false chaos in fractional-order systems via infinite state representation**
+This is the official code release for the paper: **Unveiling and resolving algorithmic false chaos in fractional-order systems via infinite state representation**
 ## Overview
 Classical discrete algorithms for computing Lyapunov Exponents (LEs) frequently generate "false chaos" artifacts when applied to non-local fractional-order systems (FOS) due to time-domain memory truncation or history pollution. 
 
