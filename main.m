@@ -1,7 +1,7 @@
 %% ========================================================================
 % Main Script: Computation of Fractional LEs using ISR Framework
 % Corresponding to the paper:
-% [Mitigating algorithmic false chaos in fractional-order systems via infinite state representation]
+% [Unveiling and resolving algorithmic false chaos in fractional-order systems via infinite state representation]
 %
 % This script computes the complete Lyapunov Exponent (LE) spectrum, 
 % evaluates the 0-1 test, and performs the two-trajectory experimental 
