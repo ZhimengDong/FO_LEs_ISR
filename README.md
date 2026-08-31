@@ -56,28 +56,7 @@ To perform the full computation, run:
 main(true)
 ```
 
-The recomputed result is saved under a separate filename, so the supplied paper data are not overwritten. Fractional finite-time Lyapunov estimates may show small numerical differences when recomputed, while the expected chaotic signature remains `(+, 0, -)`.
-
-## Repository Layout
-
-```text
-.
-|-- main.m
-|-- Lorenz_ISR_Results.png
-|-- LICENSE
-|-- Data/
-|   `-- Lorenz_ISR_Results_alpha_0.995.mat
-|-- Src/
-|   |-- generate_ISR_timeseries.m
-|   |-- generate_optimization_params.m
-|   |-- generate_oustaloup_params.m
-|   `-- run_ISR_LEs.m
-`-- Utils/
-    |-- compute_01_test.m
-    |-- compute_LLE_experimental.m
-    |-- extract_physical_LEs.m
-    `-- plot_Lorenz_ISR_results.m
-```
+The recomputed result is saved under a separate filename. Fractional Lyapunov estimates may show small numerical differences when recomputed, while the expected chaotic signature remains `(+, 0, -)`.
 
 ## Citation
 
