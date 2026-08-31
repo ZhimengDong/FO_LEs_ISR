@@ -1,9 +1,6 @@
 function [omega_k, eta_k] = generate_oustaloup_params( ...
     alpha, recursion_order, w_low, w_high)
 %GENERATE_OUSTALOUP_PARAMS Generate ISR nodes and spectral weights.
-%   This implements the Oustaloup recursive approximation in the
-%   Trigeassou form used in the paper. The returned number of nodes is
-%   recursion_order + 1 because the integrating mode omega = 0 is included.
 
     if recursion_order < 1 || recursion_order ~= floor(recursion_order)
         error('recursion_order must be a positive integer.');
