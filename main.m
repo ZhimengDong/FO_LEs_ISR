@@ -38,8 +38,6 @@ if recompute
     [nodes, weights] = generate_oustaloup_params( ...
         params.alpha, N - 1, w_low, w_high);
 
-    % Use one deterministic augmented initial state for all three calculations.
-    rng(20260831, 'twister');
     params.internal_initial = 0.1 * rand(dim * N, 1);
 
     fprintf('Computing the physical time series...\n');
