@@ -1,7 +1,6 @@
 function [omega_opt, eta_opt] = generate_optimization_params( ...
     alpha, N, dt, T_memory)
 %GENERATE_OPTIMIZATION_PARAMS Fit the fractional kernel in the time domain.
-%   This optional alternative requires Optimization Toolbox.
 
     target = @(t) t.^(alpha - 1) ./ gamma(alpha);
     t_samples = logspace(log10(dt), log10(T_memory), 200)';
